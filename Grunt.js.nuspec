@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Grunt.js</id>
-        <version>0.4.2.1</version>
+        <version>0.4.2.2</version>
         <title>Grunt.js</title>
         <authors>cowboy</authors>
         <owners>giggio</owners>
@@ -23,7 +23,7 @@ https://github.com/giggio/grunt-nuget</description>
     </metadata>
     <files>
         <file src="build\grunt.js.targets" target="build\grunt.js.targets" />
-        <file src="content\Gruntfile.coffee" target="content\Gruntfile.coffee" />
+        <file src="tools\Gruntfile.coffee" target="tools\Gruntfile.coffee" />
         <file src="tools\grunt.cmd" target="tools\grunt.cmd" />
         <file src="tools\init.ps1" target="tools\init.ps1" />
         <file src="tools\install.ps1" target="tools\install.ps1" />
