@@ -10,8 +10,8 @@
 	</PropertyGroup>
 	<Target Name="InstallGrunt">
 		<Message Text="Installing Grunt..."/>
-		<Exec Condition=" !Exists('$(NodeModulesGrunt)')" Command="$(MSBuildThisFileDirectory)..\tools\npm.cmd install grunt --save-dev" WorkingDirectory="$(SolutionDir)" />
-		<Exec Condition=" !Exists('$(NodeModulesGruntCli)')" Command="$(MSBuildThisFileDirectory)..\tools\npm.cmd install grunt-cli --save-dev" WorkingDirectory="$(SolutionDir)" />
+		<Exec Condition=" !Exists('$(NodeModulesGrunt)')" Command="&quot;$(MSBuildThisFileDirectory)..\tools\npm.cmd&quot; install grunt --save-dev" WorkingDirectory="$(SolutionDir)" />
+		<Exec Condition=" !Exists('$(NodeModulesGruntCli)')" Command="&quot;$(MSBuildThisFileDirectory)..\tools\npm.cmd&quot; install grunt-cli --save-dev" WorkingDirectory="$(SolutionDir)" />
 		<Message Text="Grunt installed!"/>
 	</Target>
 </Project>
